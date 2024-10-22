@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding:0px ;
+    box-sizing: border-box;
+}
+.body{
+    padding: 0px 50px 0px 50px ;
+    /* border: 2px solid black; */
+}
+
+header{
+    display: flex;
+    align-items: center;
+    /* border: 2px solid black; */
+    padding-top: 15px;
+    justify-content: space-between;
+}
+
+.action-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+ .action-container1{
+    color: #1F1534;
+    font-family: "Mulish", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    margin-right: 48px;
+} 
+.action-container2{
+    margin-right: 48px;
+    opacity: 50%;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+}
+.action-container3{
+    font-family: "Mulish", sans-serif;
+    opacity: 50%;
+}
+
+main{
+    padding-top: 34px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 34px;
+    
+}
+.image{
+    height: 420px;
+    width: 345px;
+    padding-bottom: 28px;
+    /* margin-left: 341px; */
+    /* display: flex; */
+}
+
+.left{
+    margin-top: 60px;
+}
+.head{
+    font-family: "Mulish", sans-serif;
+    opacity: 100%;
+    line-height: 125%;
+    font-size: 48px;
+    /* background-color: aliceblue; */
+    white-space: nowrap;
+}
+.head span{
+    color: #89C5CC;
+    font-weight: bold;
+}
+.para{
+    margin-top: 12px;
+    font-size: 16px;
+    font-family: "Open", sans-serif;
+    line-height: 160%;
+    opacity: 100%;
+    color: #7D7987;
+}
+.bold{
+    font-weight: bold;
+}
+
+button{
+    margin-top: 30px;
+    background-color:#69B99D;
+    color: white;
+    padding: 14px 32px 15px 32px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.start{
+    margin-left: 8px;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-family: "Open", sans-serif;
+    font-weight: mixed;
+    line-height: 180%;
+    position: relative;
+}
+#foot-span{
+    font-weight: bold;
+}
+.foot-ball{
+    position: absolute;
+    right: 0px;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
